@@ -12,7 +12,9 @@ const Header = () => {
 
   return (
     <Nav>
-      <NavLink to='/'><h1>Logo</h1></NavLink>
+      <NavLink to='/'>
+        <img src={process.env.PUBLIC_URL + '/rg_logo_4'} width='66px' height='50px' alt='blankkk' />
+      </NavLink>
       <Bars />
       <NavMenu>
         <NavLink to='/about-me' activeStyle> About</NavLink>
