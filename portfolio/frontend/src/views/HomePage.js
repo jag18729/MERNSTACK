@@ -8,7 +8,6 @@ const HomePage = () => {
       alignItems: 'center',
       height: '90vh'
     }}>
-      Home
     </div>
   );
 };

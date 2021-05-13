@@ -7,25 +7,28 @@ import {
   NavBtn,
   NavBtnLink
 } from './NavbarElements';
+import Logo from '../../images/LOGO.png';
 
 const Header = () => {
 
   return (
-    <Nav>
-      <NavLink to='/'>
-        <img src={process.env.PUBLIC_URL + '/rg_logo_4'} width='66px' height='50px' alt='blankkk' />
-      </NavLink>
-      <Bars />
-      <NavMenu>
-        <NavLink to='/about-me' activeStyle> About</NavLink>
-        <NavLink to='/contact-me' activeStyle> Contact Me </NavLink>
-        <NavLink to='/services' activeStyle> Services</NavLink>
-        <NavLink to='/sign-up' activeStyle> Sign-Up</NavLink>
-      </NavMenu>
-      <NavBtn>
-        <NavBtnLink to='/signin'>Sign in</NavBtnLink>
-      </NavBtn>
-    </Nav>
+    <>
+      <Nav>
+        <NavLink to='/'>
+          <img src={Logo} width='55em' background-color='white' alt='' />
+        </NavLink>
+        <Bars />
+        <NavMenu>
+          <NavLink to='/about-me' activeStyle>About</NavLink>
+          <NavLink to='/projects' activeStyle> Projects </NavLink>
+          <NavLink to='/skills' activeStyle>Skills </NavLink>
+          <NavLink to='/resume' activeStyle>Resume/ CV</NavLink>
+        </NavMenu>
+        <NavBtn>
+          <NavBtnLink to='/contact-me'>Contact Me</NavBtnLink>
+        </NavBtn>
+      </Nav>
+    </>
   );
 };
 
