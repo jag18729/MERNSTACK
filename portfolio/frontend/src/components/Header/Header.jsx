@@ -7,7 +7,7 @@ import {
   NavBtn,
   NavBtnLink
 } from './NavbarElements';
-import Logo from '../../images/LOGO.png';
+import Logo from '../../components/Header/LOGO.png';
 
 const Header = () => {
 

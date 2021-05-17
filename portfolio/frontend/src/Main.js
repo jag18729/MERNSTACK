@@ -15,14 +15,25 @@ const Main = () => {
 
 
   return (
-    <div class="container" >
-      frfrfr
-      <img class="profilePicture" src={ProfilePicture} alt='' />
-      <div class="ocean">
-        <div class="wave"></div>
-        <div class="wave"></div>
+    <>
+      <div class="container" >
+        <img class="profilePicture" src={ProfilePicture} alt='' />
+        <div class="intro">
+          <h2 class='introtext' >Full-Stack Web Developer</h2>
+          <h3 class='introtext'> Self Motivated, U.S. Marine Veteran with over 8 years in technical experience. </h3>
+          <h3 class='introtext'>On a journey to become a professional Software Engineer. </h3>
+        </div>
+        <h2 class="glow">Rafael J. Garcia</h2>
+        <h3 class="glow"> Los Angeles, California</h3>
       </div>
-    </div>
+
+      <div class="about-me">
+        hello
+
+      </div>
+
+
+    </>
   );
 };
 
